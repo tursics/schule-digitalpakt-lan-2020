@@ -23,7 +23,7 @@
 		return json_encode($json);
 	}
 
-	$url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT1Pu0Q9_1DccRipOHX4CSvGnhvyCVeQLZCSNUh6gMonpGuVls_ODi7zwIjECZG7deLBdeyOBuvu7we/pub?gid=1577405458&single=true&output=csv';
+	$url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTkBU-aYursnZljyLR4NTM_e3FEq2vUTD4TJ4UgThJSHjPU_reyop4DilYC2rbiZvtmHFD6KxF8wocY/pub?gid=0&single=true&output=csv';
 
 	header("Access-Control-Allow-Origin: *");
 	print_r(csvToJson($url));
